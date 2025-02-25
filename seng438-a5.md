@@ -2,8 +2,7 @@
 
 > **Assignment #5**
 > **Software Reliability Assessment**
-  Instructors: 
->   -   Dr. Behrouz Far (far@ucalgary.ca)
+  Instructor: 
 >   -   Dr. Kangsoo Kim (kangsoo.kim@ucalgary.ca)
 
 > Department of Electrical and Computer Engineering
