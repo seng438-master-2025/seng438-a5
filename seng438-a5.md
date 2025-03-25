@@ -39,8 +39,6 @@ After completing this part, students will:
 ## 2.2 TESTING TOOLS
 
 The testing tool to be used in this part, is 
-- START (open source, developed by Dr. Far's Lab, running on various OS including 32bit and 64bit Windows and Linux). 
- **OR** 
 - C-SFRAT (an open source software developed by Python). 
 
 
@@ -54,7 +52,7 @@ The system to be tested for this part is a hypothetical system and its failure d
 ## 2.4 FAMILIARIZATION
 
 
-### 2.4.1 Alternative: INSTALL C-SFRAT (**Suggestion** )
+### 2.4.1: INSTALL C-SFRAT (**Suggestion** )
 
 1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
