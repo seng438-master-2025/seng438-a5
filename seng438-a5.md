@@ -28,7 +28,7 @@ Both will be practiced in this lab.
 
 ## 2.1 OBJECTIVES
 
-The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as CASRE or SRTAT, and create plots of failure rate and reliability of SUT.
+The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as C-SFRAT , and create plots of failure rate and reliability of SUT.
 
 After completing this part, students will:
 
@@ -39,8 +39,6 @@ After completing this part, students will:
 ## 2.2 TESTING TOOLS
 
 The testing tool to be used in this part, is 
-- START (open source, developed by Dr. Far's Lab, running on various OS including 32bit and 64bit Windows and Linux). 
- **OR** 
 - C-SFRAT (an open source software developed by Python). 
 
 
@@ -49,46 +47,20 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 **Note**:
   - For this assignment, take a deeper look into the suitable sample input for the tools that you are supposed to use, since you need to convert your selected input data into a compatible input file based on the used tool.
-  - If you are using SRTAT, you need to convert the input data of any type into a 'Failure count' or 'Time between failures' format. You can find a sample of the converted and compatible files in the 'SRTAT - SRE tool\Win64\sample_input' folder in SRTAT.
   - If you are using C-SFRAT, you need to convert the input data into the following format: (T: time interval, FC: failure count, E: execution time measured in hours, F: failure identification work measured in person hours, C: computer time failure identification measured in hours).
 
 ## 2.4 FAMILIARIZATION
 
-### 2.4.1 INSTALL SRTAT
 
-1. Get SRTAT-SRE-tool.zip.
-2. It is a Java package that has 4 variations for different operating systems. Install the appropriate version on your system.
-   ```
-   java -Djava.library.path=. -jar SRTAT.jar
-
-   ```
-3. Run and verify its functionalities.
-4. Submitting results using only the 'Geometric' and 'Littlewood and Varral's Bayesian Reliability' models is acceptable if some models do not function on your device.
-5. If the tool does not work on your device, please note that it has been tested and functions properly on Windows 64.
-
-
-### 2.4.3 Alternative: INSTALL C-SFRAT (**Suggestion** )
+### 2.4.1: INSTALL C-SFRAT (Only fo Windows-OS)
 
 1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
 
 
 ## 2.5  **INSTRUCTIONS**
-### 2.5.1 Running SRTAT
 
-Software Reliability and Testing Analysis Tool.
-
-1. Run SRTAT
-2. Import failure data
-3. Select a set of models that would provide the best fit for the project data using model ranking
-4. Select the range of useful data using Laplace or other tests
-5. Display time-between-failures, failure intensity and reliability graphs
-6. Discuss the acceptable range of failure rate for the test data
-
-![](./media/running-srtat.png)
-
-
-### 2.5.2 Running C-SFRAT
+### 2.5.1 Running C-SFRAT
 
 The Covariate Software Failure and Reliability Assessment Tool (C-SFRAT) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation. 
 
@@ -122,8 +94,8 @@ After completing this part, students will:
 
 In this assignment, you will use the following tools to analyze the test data provided.
 
--  SRTAT **OR** 
--  RDC-11 (an EXCEL worksheet and macro). 
+-  RDC-11 (an EXCEL worksheet and macro).
+  
 ## 3.3 SYSTEM UNDER TEST
 
 The system to be tested for this part is a hypothetical system and its failure data is attached ([failure-data-set2.zip](./failure-data-set2.zip)). There will be a few test data files and the students should select one of them.
@@ -137,17 +109,6 @@ The system to be tested for this part is a hypothetical system and its failure d
 3. Read the document explaining its functionality.
 
 ![](install-rdc.png) 
-
-
-### 3.4.2 Alternative: INSTALL SRTAT 
-
-Install SRTAT(as in 2.4.2, RDC is included in SRTAT tool as an option tab)
-
-![](./media/install-srtat.png)
-
-1. Get SRTAT-SRE-tool.zip.
-2. It is a Java package that has 4 variations for different operating systems. Install the appropriate version on your system.
-3. Run and verify its functionalities.
 
 
 **INSTRUCTIONS**
