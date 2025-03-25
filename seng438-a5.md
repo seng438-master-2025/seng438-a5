@@ -28,7 +28,7 @@ Both will be practiced in this lab.
 
 ## 2.1 OBJECTIVES
 
-The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as CASRE or SRTAT, and create plots of failure rate and reliability of SUT.
+The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as C-SFRAT , and create plots of failure rate and reliability of SUT.
 
 After completing this part, students will:
 
