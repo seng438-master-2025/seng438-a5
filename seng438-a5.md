@@ -49,7 +49,6 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 **Note**:
   - For this assignment, take a deeper look into the suitable sample input for the tools that you are supposed to use, since you need to convert your selected input data into a compatible input file based on the used tool.
-  - If you are using SRTAT, you need to convert the input data of any type into a 'Failure count' or 'Time between failures' format. You can find a sample of the converted and compatible files in the 'SRTAT - SRE tool\Win64\sample_input' folder in SRTAT.
   - If you are using C-SFRAT, you need to convert the input data into the following format: (T: time interval, FC: failure count, E: execution time measured in hours, F: failure identification work measured in person hours, C: computer time failure identification measured in hours).
 
 ## 2.4 FAMILIARIZATION
